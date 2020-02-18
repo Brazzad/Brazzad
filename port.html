@@ -1,165 +1,256 @@
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Responsive Design</title>
-  <link  href="css/style.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Brazzard Buya Isaac</title>
+    <link rel="stylesheet" href="">
 
-  <!-- jQuery library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <!-- latest compiled and minified css-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-  <!-- Latest compiled JavaScript -->
-  <script src="js/caroufredSel.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <!-- jQuery library -->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="js/caroufredSel.js"></script>
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
   <style type="text/css">
-    body {
-    margin: 0;
-    padding: 0;
-   }
+
+body {
+          margin: 0;
+          padding: 0;
+          height: 3000px;
+
+    }
+
+
     header {
-      background-color: deepskyblue;
-      height: 112px;
-      line-height: 112px;
+          background-color: black;
+          height: 112px;
+          line-height: 112px;
+          position: fixed;
+          z-index: 1;
+          width: 100%;
     }
-    ul {
-      list-style: none;
+
+     ul {
+          list-style: none;
     }
+
     ul li {
-      display: inline-block;
+         display: inline-block;
     }
+
     header nav {
-       float: right;
+         float: right;
     }
-    img {
-    margin-top: 30px;
-   }
-   header nav ul li a {
-    padding-right: 30px;
-    font-weight: bold;
-    color: white;
-    transition: all 0.5s;
-   }
-   header nav ul li a:hover{
-     text-decoration: none;
-     color: red;
+
+    header nav ul li a {
+         padding-right: 20px;
+         font-weight: bold;
+         color: white;
+         transition: all 0.5s ease-in;
+         text-decoration: none;
    }
 
-   .img1 {
-    background-image:linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7)), url(//images.html/code.jpg);
-    background-size:100% 100% ;
+    header nav ul li a:hover{
+         text-decoration: none;
+         color: red;
    }
 
    .slider,.slider ul, .slider ul  li  {
-     height: 710px;
-     width: 100%;
-     text-align: center;
+         height: 710px;
+         width: 100%;
+         text-align: center;
    }
 
-   .slider h2 {
-       font-weight: bold;
-       margin-top:220px;
+    .slider h2 {
+         font-weight: bold;
+         margin-top:180px;
    }
 
-   .slider span {
-    color: orange;
+    .slider span {
+        color: orange;
    }
 
-   .slider a {
-    padding: 10px 40px;
-    margin-right: 10px;
+    .slider a {
+        padding: 10px 30px;
+        margin-right: 10px;
    }
 
-   .slider a.btn-half {
-    background-color: deepskyblue;
-    color: white;
+    .slider a.btn-half {
+        background-color: deepskyblue;
+        color: white;
+        transition: 0.5s ease-in;
+        text-decoration: none;
    }
 
-   .slider a.btn-full {
-      background-color: orange;
-      color: white;
+    .slider a.btn-half:hover {
+        background-color: dodgerblue;
    }
 
-   .img2{
-      background-image:linear-gradient(rgba(0,0,0,0,7), rgba(0,0,0,0,7)),url(//images.html/code.jpg)
-      background-size:100% 100%;
+    .slider a.btn-full {
+        background-color: orange;
+        color: white;
+        transition: 0.5s ease-in;
+        text-decoration: none;
+   }
 
+    .slider a.btn-full:hover {
+       background-color: #e67e22;
    }
 
 
+    .slider i {
+       font-size: 20px;
+       margin-right: 10px;
+   }
 
-
-
+   .img1 {
+    background-image: url(images.html)
+   }
 
 
   </style>
+
+
+
 </head>
 <body>
 
     <header>
+
       <div class="container">
+
         <div class="row">
-          <a href="" class="logo"><img src="" width="600px;"></a>
-          <nav>
-             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Work</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">clients</a></li>
-              <li><a href="">Our Team</a></li>
-              <li><a href="">Contact</a></li>
-             </ul>
-          </nav>
+
+        <a href="" class="logo"> <img src="images.html/dope.jpg" width="112px"></a>
+
+
+        <nav>
+
+          <ul>
+
+            <li><a href="">Home</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">My Bag</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Contact</a></li>
+
+          </ul>
+
+        </nav>
+
         </div>
 
       </div>
+
     </header>
 
- <section class="slider">
 
-   <ul class="slider-caroufredSel" id="slider-caroufredSel">
-     <li class="img1">
-      <img class="img1" src="images.html/code.jpg" alt="">
-       <h2>BEAUTIFIED BUSINESS <span>TEMPLATE</span></h2>
-       <p>We believe in creativity always</p>
-       <i class="fa fa-apple"></i>
-       <i class="fa fa-android"></i>
-       <i class="fa fa-windows"></i>
-       <p><br>
-         who is such a man as does not want to get success , life is not for work life is gone <br> health is gone if character is gone then get it everything is gone;
-       </p><br>
-       <a href="" class="btn btn-half">Get Started</a>
-       <a href="" class="btn btn-full">Buy Now</a>
-     </li>
-      <li class="img2">
-       <h2>BEAUTIFIED BUSINESS <span>TEMPLATE</span></h2>
-       <p>We believe in creativity always</p>
-       <i class="fa fa-apple"></i>
-       <i class="fa fa-android"></i>
-       <i class="fa fa-windows"></i>
-       <p><br>
-         who is such a man as does not want to get success , life is not for work life is gone <br> health is gone if character is gone then get it everything is gone;
-       </p><br>
-      <li class="img3">
-       <h2>BEAUTIFIED BUSINESS <span>TEMPLATE</span></h2>
-       <p>We believe in creativity always</p>
-       <i class="fa fa-apple"></i>
-       <i class="fa fa-android"></i>
-       <i class="fa fa-windows"></i>
-       <p><br>
-         who is such a man as does not want to get success , life is not for work life is gone <br> health is gone if character is gone then get it everything is gone;
-       </p><br>
-   </ul>
 
- </section>
+   <section class="slider">
+      <ul class="slider-carousel" id="slider-carousel">
+      <li class="img1">
+
+
+       <h2>WELCOME TO <span>AFRICAN CITY COLLECTION</span> BEAUTY PRODUCTS</h2>
+
+       <p>We believe in creativity always</p>
+       <i class="fa fa-apple"></i>
+       <i class="fa fa-android"></i>
+       <i class="fa fa-windows"></i>
+       <i class="fa fa-facebook"></i>
+
+      &nbsp;&nbsp;&nbsp;
+
+       <p><br>
+         <u>ACC</u>   makes nails a personal canvas and the collection becomes an artist’s <br>palette so users can express themselves with rich, fashion-forward color.
+</p><br>
+        <p>Experience the eclectic colours of the <u><b>African City Collection</b></u>.</p>
+
+
+      &nbsp;&nbsp;&nbsp;
+
+      <div>
+       <img src="images.html/beeb.jpg" width="250px" alt="">
+       &nbsp;&nbsp;
+       <img src="images.html/nail.jpg" width="250px" alt="">
+      &nbsp;&nbsp;
+       <img src="images.html/nop.jpeg" width="250px" alt="">
+      &nbsp;&nbsp;
+     </div>
+     <br>&nbsp;&nbsp;&nbsp;
+       <a href="" class="btn btn-half">Shop Now</a>&nbsp;&nbsp;
+       &nbsp; &nbsp; &nbsp;
+       <a href="" class="btn btn-full">Buy Now</a><br>&nbsp;&nbsp;
+</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</section>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<main>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div class="container">&nbsp;&nbsp;&nbsp;
+
+
+     <img src="images.html/haap.jpg" width="100%" alt="">
+     &nbsp;&nbsp;&nbsp;
+
+</div>
+
+
+   <div>
+     <img src="images.html/2017.png" width="100%" alt="">
+     &nbsp;&nbsp;&nbsp;&nbsp;
+
+     <h2 style="text-align: center"><b>Designed for Good</b></h2>
+
+    <p style="text-align: center">As an ethical luxury brand, we consider every detail – from our vegan and cruelty-free ingredients,<br> to our sustainably sourced, recyclable or compostable packaging.<br> Our virtues extend beyond the bottle,<br> as our handcrafted products create employment for blind, disabled, or disadvantaged people in the <b>African Cities.</b></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div class="aside">
+    <h2 style="text-align: center">Your business</h2>
+    <p style="text-align: center">Use your buying power to create days of employment or a job <br>for those with disabilities. By switching your soap for social good or choosing The ACC CO. <br> for your corporate gifting you will be making a positive difference.</p>
+    <img src="images.html/pop.jpg" alt="">
+  </div>
+
+
+   </div>
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script src="js/main.js"></script>
-
-
-
-
-
-
 </body>
 </html>

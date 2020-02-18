@@ -1,6 +1,6 @@
 jQuery (document).ready (function(){
     "use strict";
-    $(#slider-carousel).caroufredSel({
+    $('#slider-carousel').caroufredSel({
         responsive:true,
         width : 100%,
         circular:true,
