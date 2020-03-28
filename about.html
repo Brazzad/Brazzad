@@ -1,219 +1,328 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Beauty Products</title>
+    <title>City Collection</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--  Font awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-sm navbar-white bg-white">
-    <div class="container">
-      <a href="index.html" class="navbar-brand"><div>
-  <img src="pic/img/dope.jpg" width="100px" alt="">
-  </div></a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a href="about.html" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="services.html" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="blog.html" class="nav-link">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- PAGE HEADER -->
-  <header id="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 m-auto text-center">
-          <h1 style="color: black">Welcome To <span>ACC</span><br>About Us</h1>
-          <p style="color: black"><b>A Sustainable Beauty product?</b></p>
-        </div>
-      </div>
-    </div>
-  </header>
+     <!--Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><h1><span style="color:black"><b><u>City Collection</u></span></b></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About us</a>
+                    </li>
 
-  <!-- ABOUT SECTION -->
-  <section id="about" class="py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Clean Up Your Makeup Holder</h1>
-          <p><b>Every $1 you give becomes at least $10 in increased incomes for those working to improve their standard of living. We call this multiplier effect “the power of 10.” It empowers you to activate prosperity where it’s missing in the poorest places around the world.!</p>
-          &nbsp;&nbsp;&nbsp;
-          <p>Support from donors and foundations funds our efforts to directly address the parts of peoples’ lives that matter—we’re looking for what works, and you can help!</b></p>
-        </div>
-        <div class="col-md-6">
-          <img src="pic/img/obbb.gif" width="500px" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
 
-  <!-- ICON BOXES -->
-  <section id="icon-boxes" class="p-5">
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col-md-4">
-          <div class="card bg-danger text-white text-center">
-            <div class="card-body">
-
-              <h3><img src="pic/img/pop.jpg" width="100px" alt=""></h3>
-              <p>One Quarter Agriprises is a group of farmers and help in growing crops to feed a million.</p>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-pill btn-primary" href="shopping-cart.html">
+                            <i class="fas fa-shopping-cart mr-1"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-dark text-white text-center">
-            <div class="card-body">
+    </nav>
 
-              <h3><img src="pic/img/nop.jpeg" width="100px" alt=""></h3>
-             We have boots on the ground in eleven countries on three continents.
-            </div>
-          </div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!--Portfolio-->
+    <section class="portfolio container-fluid bg-light">
+        <div class="text-center py-5">
+            <h2 class="py-3">Portfolio</h2>
+            <div class="mx-auto heading-line"></div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-danger text-white text-center">
-            <div class="card-body">
-
-              <h3><img src="pic/img/nail.jpg" width="100px" alt=""></h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
+        <div class="row">
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
             </div>
-          </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">HTML &amp; CSS</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Programming</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Web design</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Portfolio</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </div>
         </div>
-      </div>
+    </section>
 
-      <div class="row mb-4">
-        <div class="col-md-4">
-          <div class="card bg-dark text-white text-center">
-            <div class="card-body">
-
-              <h3><img src="pic/img/lip.jpg" width="100px" alt=""></h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
-            </div>
-          </div>
+    <!--Portfolio-->
+    <section class="portfolio container-fluid bg-light">
+        <div class="text-center py-5">
+            <h2 class="py-3">Portfolio</h2>
+            <div class="mx-auto heading-line"></div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-danger text-white text-center">
-            <div class="card-body">
-
-              <h3><img src="pic/img/dope.jpg" width="100px" alt=""></h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
+        <div class="row">
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
             </div>
-          </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">HTML &amp; CSS</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Programming</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Web design</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Portfolio</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-dark text-white text-center">
-            <div class="card-body">
+    </section>
 
-              <h3><img src="pic/img/dope.jpg" width="100px" alt=""></h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
-            </div>
-          </div>
+    <!--Portfolio-->
+    <section class="portfolio container-fluid bg-light">
+        <div class="text-center py-5">
+            <h2 class="py-3">Portfolio</h2>
+            <div class="mx-auto heading-line"></div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section id="testimonials" class="p-4 bg-dark text-white">
-    <div class="container">
-      <h2 style="color: white" class="text-center">testimonials</h2>
-      <div class="row text-center">
-        <div class="col">
-          <div class="slider">
-            <div>
-              <blockquote class="blockquote">
-                <p style="color: white" class="mb-0">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
-                </p>
-                <footer style="color: white" class="blockquote-footer">Brazzard Isaac From
-                  <cite style="color: white" title="Company 1">African City Collection</cite>
-                </footer>
-              </blockquote>
+        <div class="row">
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
             </div>
-            <div>
-              <blockquote class="blockquote">
-                <p style="color: white" class="mb-0">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
-                </p>
-                <footer style="color: white" class="blockquote-footer">Brazzard From
-                  <cite style="color: white" title="Company 2">African City Collection</cite>
-                </footer>
-              </blockquote>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">HTML &amp; CSS</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
             </div>
-            <div>
-              <blockquote class="blockquote">
-                <p  style="color: white" class="mb-0">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
-                </p>
-                <footer style="color: white" class="blockquote-footer">Brazzard izo From
-                  <cite style="color: white" title="Company 3">African City Collection</cite>
-                </footer>
-              </blockquote>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
             </div>
-          </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Programming</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Web design</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </div>
+            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h4 class="py-3">Portfolio</h4>
+                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="filter"></div>
+                <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FOOTER -->
-  <footer id="main-footer" class="text-center p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Copyright &copy;
-            <span id="year"></span> <img src="pic/img/dope.jpg" width="85px" alt=""> </p>
+
+<!--Footer-->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-4">
+                    <a class="navbar-brand" href="#"><b>City Collection</b></a>
+                    <p>Our task was to give the brand a complete refresh; keeping the name but reworking the positioning and overall brand look and feel to ignite growth in enquiry and allow for the development of more targeted Dresses and a clever use of the City Collection Website .</p>
+                    <ul class="nav social-media mt-3">
+                        <li class="px-2">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Other Pages</h4>
+                    <ul class="flex-column mt-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms &amp; Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="mb-3">Social Media</h4>
+                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
+                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
+                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
+                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
+                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
+                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $(".navbar").css("background-color", "#ffffff");
+                    $(".navabr").css("border-bottom", "1px solid #ddd");
+                } else {
+                    $(".navbar").css("background-color", "transparent");
+                    $(".navabr").css("border-bottom", "none");
+                }
+            });
 
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
+            var selectedClass = "";
+            $(".filter").click(function() {
+                selectedClass = $(this).attr('data-rel');
+                $(".pics").not("." + selectedClass).css("display", "none");
+                $("." + selectedClass).css("display", "block");
+            })
+        });
+    </script>
 
-    $('.slider').slick({
-      infinite: true,
-      slideToShow: 1,
-      slideToScroll: 1
-    });
-  </script>
+
+
 </body>
-
 </html>

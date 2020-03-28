@@ -1,34 +1,8 @@
-
-#main-header img {
-  width: 100%;
-  height: 100%;
+body {
+    font-family: "open sans"
 }
 
-#main-header .port-item {
-  width: 30%;
-}
 
-#main-header .port-item:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.bg-black {
-  color: #fff;
-  background: #000;
-}
-
-@media (min-width: 1199px) {
-  .port-item {
-    padding: 3em !important;
-  }
-}
-
-span {
-  color: darkblue;
-}
-
-p {
-
-  font-style: italic;
+h1 {
+    font-family: "Pacifico";
 }
