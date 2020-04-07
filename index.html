@@ -1,341 +1,220 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <title>City Collection</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Style CSS-->
-    <link rel="stylesheet" href="css/main.css">
-    <!--  Font awesome-->
-    <link rel="stylesheet" href="css/all.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<title>Portfolio Jakob Wolitzki</title>
+	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+	<link rel="stylesheet" href="">
+	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
+	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+	<script src="bower_components/custombox/dist/custombox.min.js"></script>
+	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
 <body>
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><h1><span style="color:black"><b><u>City Collection</u></span></b></h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html"><b>About us</b></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html"><b>Product</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><b>contact</b></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-pill btn-primary" href="shopping-cart.html">
-                            <i class="fas fa-shopping-cart mr-1"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--Home screen-->
-    <section class="home">
-        <div class="row mt-5">
-            <div class="offset-lg-4 col-lg-2 col-md-4 my-5">
-                <div class="card text-center shadow-lg">
-                    <img class="card-img-top" src="img/product-1.jpg" alt="Dress">
-                    <div class="card-body">
-                        <h5 class="card-title">Summer Dress</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 my-5">
-                <div class="card text-center shadow-lg ">
-                    <img class="card-img-top" src="img/product-2.jpg" alt="Dress">
-                    <div class="card-body">
-                        <h5 class="card-title">Summer Dress</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 my-5">
-                <div class="card text-center shadow-lg">
-                    <img class="card-img-top" src="img/product-3.jpg" alt="Dress">
-                    <div class="card-body">
-                        <h5 class="card-title">Summer Dress</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Call to action -->
-    <section class="call-to-action py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 text-right">
-                    <h3 class="call-to-action-heading">Do you like discounts?</h3>
-                    <p>For all the Customers save 10% on all the discounts and look Pretty with our cute designs
-                    . Get all our new Beatuful Dresses at the most affordable and cheap Dresses</p>
-                </div>
-                <div class="col-lg-4">
-                    <button class="btn btn-lg btn-outline-secondary mt-4"><a class="nav-link" href="products.html"></a>Learn More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Gallery-->
-    <section class="shop my-5 ">
-        <div class="container">
-            <h2 class="section-heading">Our beatuful dresses</h2>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-primary filter" data-rel="all">All</button>
-                <button type="button" class="btn btn-primary filter" data-rel="1">Category 1</button>
-                <button type="button" class="btn btn-primary filter" data-rel="2">Category 2</button>
-            </div>
-            <div class="gallery mt-5">
-                <div class="mb-3 pics all 2">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-1.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">29</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-2.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">29</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-3.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 2">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-4.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 2">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-5.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">29</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 2">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-6.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">39</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 2">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-7.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-8.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-9.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-10.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-11.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-12.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-13.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-14.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-                <div class="mb-3 pics  all 1">
-                    <a href="detail.html">
-                        <img class="img-fluid" src="img/product-15.jpg" alt="Card image cap">
-                        <p class="price-tag rounded-circle"><span class="price">19</span><span class="dolar">$</span></p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Testimonials-->
-
-    <section class="testimonials py-3">
-        <div class="container">
-            <div id="carousel" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <img class="float-right testimonial-image" src="img/testimonial-1.jpg" alt="John">
-                            </div>
-                            <div class="col-lg-6">
-                                <h3 class="call-to-action-heading">John Doe</h3>
-                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <img class="float-right testimonial-image" src="img/testimonial-2.jpg" alt="John">
-                            </div>
-                            <div class="col-lg-6">
-                                <h3 class="call-to-action-heading">John Doe</h3>
-                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <img class="float-right testimonial-image" src="img/testimonial-3.jpg" alt="John">
-                            </div>
-                            <div class="col-lg-6">
-                                <h3 class="call-to-action-heading">John Doe</h3>
-                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
+	<!-- Watch how to use it on YouTube -->
+	<!-- https://youtu.be/ddLuZXs8Uyw -->
 
 
-    <!--Footer-->
-    <footer class="footer py-5">
-        <div class="container">
-            <div class="row">
+	<!-- Watch how to deploy it live -->
+	<!-- https://youtu.be/E1dqffpUlMA -->
+	<div class="wrapper">
 
 
-                <div class="col-lg-4">
-                    <a class="navbar-brand" href="#"><b>City Collection</b></a>
-                    <p>Our task was to give the brand a complete refresh; keeping the name but reworking the positioning and overall brand look and feel to ignite growth in enquiry and allow for the development of more targeted Dresses and a clever use of the City Collection Website .</p>
-                    <ul class="nav social-media mt-3">
-                        <li class="px-2">
-                            <a href="buyaisaac3@gmail.com">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="buyaisaac3@gmail.com">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-google"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Other Pages</h4>
-                    <ul class="flex-column mt-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                        </li>
+		<section id="about">
+			<div class="row">
+				<div class="small-12 large-8 large-offset-2 columns text-center">
+					<div class="profile-photo" style="background-image: url(assets/images/me.jpg);">
+					</div>
+					<div class="details">
+						<h2>Hi, I'm Brazzard. I...<br> <span id="writing-text"><span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 column">
+					<div class="cta text-center">
+						<a class="my-button cta-button expand form-button" href="mailto:jakob.wolitzki@gmail.com">Get In Touch</a>
+					</div>
+				</div>
+				<div class="small-12 column">
+					<div class="my-arrow-div text-center">
+						<a href="https://github.com/jakobowsky"><i class="fa fa-github-alt fa-2x"></i></a>
+						<a href="https://instagram.com/jakobowsky"><i class="fa fa-instagram fa-2x"></i></a>
+						<a href="http://www.youtube.com/jakobowsky"><i class="fa fa-youtube fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Terms &amp; Conditions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4 class="mb-3">Social Media</h4>
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                </div>
-            </div>
-        </div>
-    </footer>
+		</section>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 50) {
-                    $(".navbar").css("background-color", "#ffffff");
-                    $(".navabr").css("border-bottom", "1px solid #ddd");
-                } else {
-                    $(".navbar").css("background-color", "transparent");
-                    $(".navabr").css("border-bottom", "none");
-                }
-            });
+		<section id="experience">
 
-            var selectedClass = "";
-            $(".filter").click(function() {
-                selectedClass = $(this).attr('data-rel');
-                $(".pics").not("." + selectedClass).css("display", "none");
-                $("." + selectedClass).css("display", "block");
-            })
-        });
-    </script>
+			<div class="row column">
+				<div class="small-12">
+					<h2 class="text-center">My Experience</h2>
+					<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-laptop"></i>
+					<h3>Front-end</h3>
+					<ul>
+						<li>html(5)</li>
+						<li>css(3)</li>
+						<li>Javascript</li>
+						<li>Jquery</li>
+						<li>Bootstrap</li>
+						<li>Semantics-UI</li>
+						<li>Api | Ajax</li>
+					</ul>
+				</div>
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-database"></i>
+					<h3>Back-end</h3>
+					<ul>
+						<li>NodeJS</li>
+						<li>NPM</li>
+						<li>Express</li>
+						<li>SQL</li>
+						<li>Mongo</li>
+						<li>Restful Web Services</li>
+						<li>Flask | Python</li>
+					</ul>
+				</div>
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-star"></i>
+					<h3>Tools</h3>
+					<ul>
+						<li>Vim</li>
+						<li>Bower</li>
+						<li>Atom || Webstorm</li>
+						<li>Github && Bitbucket</li>
+						<li>SSH</li>
+						<li>Gulp</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="work">
+			<h2 class="text-center">Work</h2>
+			<div class="row">
+				<p class="text-center tag-line">Here are few of my former clients.</p>
+			</div>
+
+
+			<div class="row work-row"> <!-- odd -->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/project1.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Curabitur Tech</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>Curabitur Tech is id eros nisl. Cras id bibendum dolor. Quisque ultrices posuere ante sit amet varius.</p>
+						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row work-row"> <!-- even -->
+				<div class="small-12 medium-6 columns">
+					<img src="assets/images/project2.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>AwesomeTechSmth</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>GreatTechSmth is venenatis porta dolor sit amet vestibulum.</p>
+						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row work-row"> <!-- odd -->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/project3.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Suspendisse Cars</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>Suspendisse Cars pulvinar magna a mattis maximus.</p>
+						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section id="teaching">
+			<h2 class="text-center">Teaching</h2>
+			<div class="row">
+				<div class="small-12 medium-8 medium-offset-2">
+					<p class="text-center tag-line">In the last couple of years, I've taught programming to hundreds of students both privately in person and remotely. Here are some of the domains I've helped students with...</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 medium-8 medium-offset-2 columns">
+					<div class="teaching-domains">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="footer-cta">
+			<h2 class="text-center">Wanna work with me?</h2>
+			<p></p>
+			<div class="row text-center">
+				<div class="small-12 medium-8 medium-offset-2 columns">
+					<p class="text-center">I'm currently available for work.</p>
+				</div>
+				<div class="small-12 columns" id="startButtonDiv">
+					<a class="my-button form-button" href="mailto:jakob.wolitzki@gmail.com">Start Now</a>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="row text-center">
+				<div class="small-12 medium-6 medium-offset-3 columns">
+					<p id="logo">BIB</p>
+					<p id="copyright">Copyright &copy; 2020 | Brazzard Isaac</p>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+	<script src="assets/scripts/app.js" charset="utf-8"></script>
 </body>
 
 </html>
