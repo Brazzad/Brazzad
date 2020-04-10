@@ -1,139 +1,40 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EPIC GOOGLE MAPS PROJECT</title>
+    <script src="js/store-data.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
 </head>
 <body>
-
-    <div class="background">
-
-   <div class="nav">
-       <a class="a active" href="#">HOME</a>
-
-       <a class="b" href="#">ABOUT ME</a>
-
-       <a class="c" href="#">GALLERY</a>
-
-       <a class="d" href="#">CONTACT US</a>
-   </div>
-
-
-   <div class="content">
-       <div class="home">
-           <h1>Am Quresh Abdul </h1>
-            <h3>Aquariums Constructer</h3>
-       </div>
-
-       <div class="aboutus">
-
-        <p><b>Hello Friends</b></p>
-
-        <p>We deal in imported <b>Aquatic Animals e.g Fish, Turtules, Plants and Decorations peaces</b> etc. We also do Fish pound services & large Aquariums services in a professional ways.</p>
-
-        <p>We construct creative <b>Fish pounds & Fish Aquariums complete sets</b> and indoors pounds, outdoor pounds/indoor tanks, outdoor tanks</p>
-
-        <p>We decorate creative gardens and Kitchen with Aquariums such as wall tanks & stand up kitchen which looks like large Aquarium. Your Bedrooms, studyrooms, Restrooms.</p>
-
-        <p>We make our own Fish diet meals known as <b>(Aquariums Fish food)</b></p>
-
-       </div>
-
-       <div class="gallery">
-          <h1>Hello Am gallery</h1>
-           <div class="image">
-               <img src="images/JJ.jpg" />
-           </div>
-           <div class="image">
-               <img src="images/kkk.jpg" />
-           </div>
-           <div class="image">
-               <img src="images/ks.jpg" />
-           </div>
-           <div class="image">
-               <img src="images/ku.jpg" />
-           </div>
-           <div class="image">
-               <img src="images/mm.jpg" />
-           </div>
-           <div class="image">
-               <img src="images/n.jpg" />
-           </div>
-           <div class="image">
-               <img src="images/no.jpg" />
-           </div>
-       </div>
+     <div class="title">Store Locator</div>
+     <div class="search-container">
+         <div class="search">
+             <input id="zip-code-input"  type="text"  placeholder="Enter zip"/>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="Stores-List-container">
+         <div class="Stores-List">
+         <div class="Stores-container">
+            <div class="Stores-info-container">
+             <div class="Stores-address">
+                 <span>8480 Beverly Blvd</span>
+                 <span>LosAngeles, CA 90048</span>
+             </div>
+             <div class="Stores-phone-numbers">254-748-813-340</div>
+         </div>
+             <div class="Stores-number-container">
+                 <div class="Stores-number">
+                     1
+                 </div>
+             </div>
+         </div>
+         </div>
+     </div>
+   <div id="map"></div>
 
 
-       <div class="contactus">
-           <div class="contactform">
-               <form action="index.html" method="post">
-                   <input type="text"  name="" class="inputtext"  value="First Name">
-
-                   <input type="text"  name="" class="inputtext" value="Last Name">
-
-                   <input type="text"  name="" class="inputtext" value="Your Email">
-
-                   <textarea  cols="4" rows="6" class="inputmessage">Your Messages...!!!</textarea>
-
-                   <input type="button"  name="" class="submitbutton"  value="Submit">
-               </form>
-           </div>
-       </div>
-   </div>
-   </div>
-
-
-
-<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-
-<script type="text/javascript">
-
-    $(document).ready(function(){
-        $('a').click(function(){
-          //  alert("i am click");
-          var selected = $(this);
-          $('a').removeClass('active');
-          $(selected).addClass('active');
-        });
-
-
-        var $a = $('.a'),
-        $b = $('.b'),
-        $c = $('.c'),
-        $d = $('.d'),
-        $home = $('.home'),
-        $aboutus = $('.aboutus'),
-        $gallery = $('.gallery'),
-        $contactus = $('.contactus');
-
-
-        $a.click(function(){
-            $home.fadeIn();
-            $aboutus.fadeOut();
-            $gallery.fadeOut();
-            $contactus.fadeOut();
-        });
-
-        $b.click(function(){
-            $aboutus.fadeIn();
-            $home.fadeOut();
-            $gallery.fadeOut();
-            $contactus.fadeOut();
-        });
-        $c.click(function(){
-            $gallery.fadeIn();
-            $home.fadeOut();
-            $aboutus.fadeOut();
-            $contactus.fadeOut();
-        })
-        $d.click(function(){
-            $contactus.fadeIn();
-            $home.fadeOut();
-            $gallery.fadeOut();
-            $aboutus.fadeOut();
-        })
-    });
-</script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcwazb-T7zvceyA4VLWVB-eXvwj-XEUIA&callback=initMap"></script>
 </body>
 </html>

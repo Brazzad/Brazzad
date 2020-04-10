@@ -1,192 +1,154 @@
-* {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
 
-html, body {
+
+#map {
     width: 100%;
     height: 100%;
-    font-size: 14px;
-    font-weight: normal;
 }
 
-.background {
-    width: 100%;
-    height: 100%;
-    background-image: url(images/kush.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow-y: auto;
-}
 
-.nav {
-    width: 350px;
-    height: auto;
-
+.title {
     position: absolute;
-    top: 20%;
-    left: 0;
-}
-
-
-.nav a {
-    text-decoration: none;
-    font-size: 28px;
-    font-family: verdana;
+    z-index: 100;
+    font-size: 88px;
     font-weight: bold;
-    height: 90px;
-    margin: 5px 0;
-    float: left;
-    display: inline-block;
-    background-color: black;
-    color: white;
-    line-height: 90px;
-    text-align: center;
-    transition: 300ms;
-}
-
-
-a.active, .nav a:hover {
-    background-color: white;
-    color: black;
-    width:100%;
-}
-
-
-.a {
-  width: 95%;
-}
-
-.b {
-    width: 85%;
-}
-
-.c {
-    width: 80%;
-}
-
-.d {
-    width: 90%;
-}
-
-.content {
-    position: absolute;
-    width: 930px;
-    min-height: 500px;
-    height: auto;
-   /* background-color: red;*/
-    right: 0;
-    top: 10%;
-}
-
-.home {
-    position: absolute;
-    right: 0;
-    bottom: -50px;
-    color: white;
-    font-family: verdana;
-}
-
-.home h1 {
-    font-size: 95px;
-    padding-right: 90px;
-    border-bottom: 1px solid white;
+    color: #333;
     text-transform: uppercase;
+    top: 100px;
+    left: 100px;
 }
 
-.home h3 {
-    font-size: 28px;
-    padding: 5px 0;
-    opacity: 0.6;
-}
 
-.aboutus {
+.search-container {
+    border-radius: 30px;
     position: absolute;
-    right: 0;
-    top: 10px;
-    color: white;
-    font-family: century gothic;
-    padding: 0 60px;
-    display: none;
+    z-index: 100;
+    top: 230px;
+    left: 100px;
+    width: 400px;
+    height: 60px;
+    background-color: #454E53;
+    display: flex;
 }
 
-.aboutus p {
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 15px;
+.search-container .search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.gallery {
-    position: absolute;
-    right: 0;
-    top: 10px;
-    color: white;
-    padding: 0 60px;
-    display: none;
-}
 
-.gallery .image {
-    width: 31%;
-    margin: 2%;
-    float: left;
-}
-
-.image img {
+.search-container input {
     width: 100%;
-    transition: all ease 0.5s;
-    -webkit-transform: all ease 0.5s;
-    transform: scale(1);
-    -webkit-transform: scale(1);
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 
-.image img:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
+
+.search-container input:focus {
+    outline: none;
 }
 
-.contactus {
+.search i {
+    font-size: 25px;
+    color: white;
+}
+
+
+.Stores-List-container {
+    width: 400px;
     position: absolute;
-    right: 0;
-    top: 10px;
-    color: white;
-    padding: 0 60px;
-    display: none;
+    z-index: 100;
+    background: white;
+    left: 100px;
+    top: 320px;
+    border-radius: 30px;
+    bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: scroll;
+
 }
 
-.inputtext {
-    width: 55%;
-    height: 65px;
-    border: 3px solid black;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-size: 20px;
-    padding: 0 10px;
-    float: left;
+
+.Stores-container {
+    border-bottom: 1px solid #979797;
+    display: flex;
+}
+
+.Stores-info-container {
+    flex-grow: 1;
+}
+
+
+.Stores-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stores-address {
+    font-size: 21px;
+    color: #514C4C;
+    margin-top: 30px;
+}
+
+.Stores-address span {
+    display: block;
+}
+
+.Stores-phone-number {
+    color: #B5ADAD;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.inputmessage {
-    width: 55%;
-    height: 135px;
-    border: 3px solid black;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-size: 20px;
-    padding: 0 10px;
-    float: left;
+.Stores-number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454E53;
+    color: #B5ADAD
+    border-radius: 50%;
+    font-size: 12px;
 }
 
-.submitbutton {
-    width: 160px;
-    height: 65px;
-    font-family: arial;
-    background-color: white;
-    color: black;
-    font-size: 28px;
-    border: none;
+.stores-list {
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.store-info-window {
+    min-width: 300px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.store-info-name {
+    font-size: 24px;
     font-weight: bold;
-    float: left;
-    clear: both;
-    margin-top: 25px;
+    color: rgba(0, 0, 0, .87);
+}
+
+.store-info-status {
+    margin-top: 6px;
+    border-bottom: 1px solid #00000029;
+    padding-bottom: 6px;
+}
+
+.store-info-address, .store-info-phone {
+    margin-top: 8px;
 }
