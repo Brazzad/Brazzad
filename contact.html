@@ -1,195 +1,306 @@
+<!DOCTYPE HTML>
 <html>
-<head>
-    <title>City Collection</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tour Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Style CSS-->
-    <link rel="stylesheet" href="css/main.css">
-    <!--  Font awesome-->
-    <link rel="stylesheet" href="css/all.min.css">
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
-</head>
-<body>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><h1><span style="color:black"><b><u>City Collection</u></span></b></h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About us</a>
-                    </li>
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html">Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
-                    </li>
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
 
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-pill btn-primary" href="shopping-cart.html">
-                            <i class="fas fa-shopping-cart mr-1"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</head>
+	<body>
+		
+	<div class="colorlib-loader"></div>
 
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-2">
+							<div id="colorlib-logo"><a href="index.html">Tour</a></div>
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li class="has-dropdown">
+									<a href="tours.html">Tours</a>
+									<ul class="dropdown">
+										<li><a href="#">Destination</a></li>
+										<li><a href="#">Cruises</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Booking</a></li>
+									</ul>
+								</li>
+								<li><a href="hotels.html">Hotels</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="about.html">About</a></li>
+								<li class="active"><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url(images/cover-img-3.jpg);">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>by colorlib.com</h2>
+				   					<h1>Contact us</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
 
-    <!--Contact US-->
-    <section class="contact bg-light py-5">
-        <div class="container">
-            <h2 class="section-heading">Contact Us</h2>
-            <form class="col-lg-6 offset-lg-3">
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" class="form-control" placeholder="Enter name">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" placeholder="Type your message" row="5">
+		<div id="colorlib-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<h3>Get In Touch</h3>
+						<form action="#">
+							<div class="row form-group">
+								<div class="col-md-6 padding-bottom">
+									<label for="fname">First Name</label>
+									<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								</div>
+								<div class="col-md-6">
+									<label for="lname">Last Name</label>
+									<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								</div>
+							</div>
 
-                </textarea>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="check">
-                    <label class="form-check-label" for="check">Subscribe to newsletter</label>
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-lg btn-primary">Submit</button>
-                </div>
-            </form>
-        </div>
-    </section>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="email">Email</label>
+									<input type="text" id="email" class="form-control" placeholder="Your email address">
+								</div>
+							</div>
 
-    <!-- NEWSLETTER -->
-      <section id=newsletter class="text-center p-5 bg-blue text-black">
-        <div class=container>
-            <div class=row>
-                <div class=col>
-                    <h1>Sign Up For Our Newsletter</h1>
-                    <p>Join our team and learn more about our Marketing Store in a broad scale</p>
-                    <form class="form-inline justify-content-center">
-                        <input type=text class="form-control mb-2 mr-2" placeholder="Enter Name">
-                        <input type=text class="form-control mb-2 mr-2" placeholder="Enter Email">
-                        <button class="btn btn-success mb-2">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject">Subject</label>
+									<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								</div>
+							</div>
 
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								</div>
+							</div>
+							<div class="form-group text-center">
+								<input type="submit" value="Send Message" class="btn btn-primary">
+							</div>
 
-    <!--Footer-->
-    <footer class="footer py-5">
-        <div class="container">
-            <div class="row">
+						</form>		
+					</div>
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<h3>Contact Information</h3>
+						<div class="row contact-info-wrap">
+							<div class="col-md-3">
+								<p><span><i class="icon-location"></i></span> 198 West 21th Street, <br> Suite 721 New York NY 10016</p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-phone3"></i></span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-paperplane"></i></span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-globe"></i></span> <a href="#">yoursite.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div id="map" class="colorlib-map"></div>
+	
+		<div id="colorlib-subscribe" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<h2>Sign Up for a Newsletter</h2>
+						<p>Sign up for our mailing list to get latest updates and offers.</p>
+						<form class="form-inline qbstp-header-subscribe">
+							<div class="row">
+								<div class="col-md-12 col-md-offset-0">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="Enter your email">
+										<button type="submit" class="btn btn-primary">Subscribe</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                <div class="col-lg-4">
-                    <a class="navbar-brand" href="#"><b>City Collection</b></a>
-                    <p>Our task was to give the brand a complete refresh; keeping the name but reworking the positioning and overall brand look and feel to ignite growth in enquiry and allow for the development of more targeted Dresses and a clever use of the City Collection Website .</p>
-                    <ul class="nav social-media mt-3">
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-google"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Other Pages</h4>
-                    <ul class="flex-column mt-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                        </li>
+		<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4>Tour Agency</h4>
+						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						<p>
+							<ul class="colorlib-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-2 colorlib-widget">
+						<h4>Book Now</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">Flight</a></li>
+								<li><a href="#">Hotels</a></li>
+								<li><a href="#">Tour</a></li>
+								<li><a href="#">Car Rent</a></li>
+								<li><a href="#">Beach &amp; Resorts</a></li>
+								<li><a href="#">Cruises</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-2 colorlib-widget">
+						<h4>Top Deals</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">Edina Hotel</a></li>
+								<li><a href="#">Quality Suites</a></li>
+								<li><a href="#">The Hotel Zephyr</a></li>
+								<li><a href="#">Da Vinci Villa</a></li>
+								<li><a href="#">Hotel Epikk</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-2">
+						<h4>Blog Post</h4>
+						<ul class="colorlib-footer-links">
+							<li><a href="#">The Ultimate Packing List For Female Travelers</a></li>
+							<li><a href="#">How These 5 People Found The Path to Their Dream Trip</a></li>
+							<li><a href="#">A Definitive Guide to the Best Dining and Drinking Venues in the City</a></li>
+						</ul>
+					</div>
 
+					<div class="col-md-3 col-md-push-1">
+						<h4>Contact Information</h4>
+						<ul class="colorlib-footer-links">
+							<li>South 21th Street, <br> Kenya Nairobi </li>
+							<li><a href="tel://+254748813340">+254748813340</a></li>
+							<li><a href="Brazzard:buyaisaac3@gmail.com">buyaisaac3@gmail.com</a></li>
+							<li><a href="#">yoursite.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is Brought To You By <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://buyaisaac3@gmail.com" target="_blank">+254748813340</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
+							<span class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="http://pexels.com/" target="_blank">Pexels.com</a></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Terms &amp; Conditions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4 class="mb-3">Social Media</h4>
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                </div>
-            </div>
-        </div>
-    </footer>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
 
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 50) {
-                    $(".navbar").css("background-color", "#ffffff");
-                    $(".navabr").css("border-bottom", "1px solid #ddd");
-                } else {
-                    $(".navbar").css("background-color", "transparent");
-                    $(".navabr").css("border-bottom", "none");
-                }
-            });
+	<!-- Main -->
+	<script src="js/main.js"></script>
 
-            var selectedClass = "";
-            $(".filter").click(function() {
-                selectedClass = $(this).attr('data-rel');
-                $(".pics").not("." + selectedClass).css("display", "none");
-                $("." + selectedClass).css("display", "block");
-            })
-        });
-    </script>
-
-</body>
+	</body>
 </html>
+
