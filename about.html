@@ -1,328 +1,199 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>City Collection</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="harrnish">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Style CSS-->
-    <link rel="stylesheet" href="css/main.css">
-    <!--  Font awesome-->
-    <link rel="stylesheet" href="css/all.min.css">
+      <title>Portfolio website</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="style.css">
+
+      <!-- bootstrap cdns -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+      <!-- terminal effect -->
+      <script src="t.min.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="animate.css">
+      <script src="wow.min.js"></script>
+
 </head>
 <body>
+      <div class="wrapper">
 
-     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><h1><span style="color:black"><b><u>City Collection</u></span></b></h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About us</a>
-                    </li>
+            <!--------------- navbar starts here --------------->
+            <nav>
+                  <span id="brand">
+                        <a href="index.html">ISAAC-izo</a>
+                  </span>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html">Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
-                    </li>
+                  <ul id="menu">
+                        <li><a href="index.html">home<span>.</span></a></li>
+                        <li><a href="work.html">work<span>.</span></a></li>
+                        <li><a href="about.html">about me<span>.</span></a></li>
+                        <li><a href="contact.html">contact<span>.</span></a></li>
+                  </ul>
 
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-pill btn-primary" href="shopping-cart.html">
-                            <i class="fas fa-shopping-cart mr-1"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                  <div id="toggle">
+                        <div class="span">menu</div>
+                  </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <!--Portfolio-->
-    <section class="portfolio container-fluid bg-light">
-        <div class="text-center py-5">
-            <h2 class="py-3">Portfolio</h2>
-            <div class="mx-auto heading-line"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">HTML &amp; CSS</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Programming</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Web design</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Portfolio</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </div>
-        </div>
-    </section>
+            </nav>
 
-    <!--Portfolio-->
-    <section class="portfolio container-fluid bg-light">
-        <div class="text-center py-5">
-            <h2 class="py-3">Portfolio</h2>
-            <div class="mx-auto heading-line"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">HTML &amp; CSS</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Programming</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Web design</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Portfolio</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </div>
-        </div>
-    </section>
+            <div id="resize">
+                  <div class="close-btn">close</div>
 
-    <!--Portfolio-->
-    <section class="portfolio container-fluid bg-light">
-        <div class="text-center py-5">
-            <h2 class="py-3">Portfolio</h2>
-            <div class="mx-auto heading-line"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                  <ul id="menu">
+                        <li><a href="index.html">home<span>.</span></a></li>
+                        <li><a href="work.html">work<span>.</span></a></li>
+                        <li><a href="about.html">about me<span>.</span></a></li>
+                        <li><a href="contact.html">contact<span>.</span></a></li>
+                  </ul>
             </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">HTML &amp; CSS</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Programming</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Web design</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-0 dark d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                    <h4 class="py-3">Portfolio</h4>
-                    <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-google"></i></a>
-                    <a class="m-2" href="#"><i class="fa fa-git"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 p-0">
-                <div class="filter"></div>
-                <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </div>
-        </div>
-    </section>
+
+            <!--------------- navbar ends here --------------->
 
 
-<!--Footer-->
-    <footer class="footer py-5">
-        <div class="container">
-            <div class="row">
-
-
-                <div class="col-lg-4">
-                    <a class="navbar-brand" href="#"><b>City Collection</b></a>
-                    <p>Our task was to give the brand a complete refresh; keeping the name but reworking the positioning and overall brand look and feel to ignite growth in enquiry and allow for the development of more targeted Dresses and a clever use of the City Collection Website .</p>
-                    <ul class="nav social-media mt-3">
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="px-2">
-                            <a href="#">
-                                <i class="fab fa-google"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Other Pages</h4>
-                    <ul class="flex-column mt-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                        </li>
-
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Terms &amp; Conditions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4 class="mb-3">Social Media</h4>
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                    <img class="rounded mx-1 my-1 float-left" alt="ss" src="https://fakeimg.pl/100x100/ffffff/">
-                </div>
+            <!--------------- hero image starts here --------------->
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-12 about image wow fadeInUp" data-wow-delay="1s"></div>
+                  </div>
             </div>
-        </div>
-    </footer>
+            <!--------------- hero image ends here --------------->
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 50) {
-                    $(".navbar").css("background-color", "#ffffff");
-                    $(".navabr").css("border-bottom", "1px solid #ddd");
-                } else {
-                    $(".navbar").css("background-color", "transparent");
-                    $(".navabr").css("border-bottom", "none");
-                }
-            });
+            <!--------------- hero section starts here --------------->
+            <div class="container">
+                  <div class="hero-content">
+                        <br><br>
 
-            var selectedClass = "";
-            $(".filter").click(function() {
-                selectedClass = $(this).attr('data-rel');
-                $(".pics").not("." + selectedClass).css("display", "none");
-                $("." + selectedClass).css("display", "block");
-            })
-        });
-    </script>
+                        <div class="row">
+                              <div class="col-lg-12">
+                                    <h3 class="wow fadeInUp" data-wow-delay="1.2s">about me.</h3><br>
+
+                                    <p class="wow fadeInUp">Living with passion is what I strictly adhere to. “Always do what you love” how much ever hackneyed this sounds it holds absolutely true. That's why I travel a lot. Not for the sole reason of “loving” to travel but it helps me to get rid of the world and escape into a different dimension of my own. As I am a travel freak I love freezing the moments I relish. The art of capturing photos is something I am always fascinated by.</p>
+
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">I am a continuous learner. Learning for me equates to exploring new ideas and growing as an individual. I just cannot imagine my life devoid of designing. I freely express my creativity and imagination by designing. And to give my passion of designing a platform I have a YouTube channel named, Codegrid.</p>
+
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <!--------------- hero section ends here --------------->
+
+            <div class="whitespace"></div>
+
+            <!--------------- footer starts here --------------->
+            <div class="footer">
+                  <div class="container">
+                        <br><br>
+
+                        <div class="collab">
+                              <div class="row">
+                                    <div class="col-lg-12">
+                                          <p class="wow fadeInUp">Got an interesting project? I can help you.</p>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <br>
+
+                        <div class="hr">
+                              <div class="row"></div>
+                        </div>
+
+                        <br><br>
+
+                        <div class="info">
+                              <div class="row">
+                                    <div class="col-lg-4" id="personal">
+                                          <p class="wow fadeInUp">connect with me</p>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">tw. izo @buyaisaac</h4>
+                                          <br><br>
+                                    </div>
+
+                                    <div class="col-lg-4" id="media">
+                                          <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
+
+                                          <ul>
+                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">fb</li>
+                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">ig</li>
+                                                <li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">tw</li>
+                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s">yt</li>
+                                          </ul>
+
+                                          <br><br>
+                                    </div>
+
+                                    <div class="col-lg-4" id="address">
+                                          <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">buyaisaac3@gmail.com</h4>
+                                          <br><br>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!--------------- footer ends here --------------->
+
+            <br><br><br><br>
+
+      </div>
+
+      <!-- greensock cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript">
+
+      // navigation starts here
+      $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+            delay: 0.4,
+            y: 10,
+            opacity: 0,
+            ease: Expo.easeInOut
+      })
+
+      TweenMax.staggerFrom("#menu li a", 1, {
+            delay: 0.4,
+            opacity: 0,
+            ease: Expo.easeInOut
+      }, 0.1);
+
+      // nav animation ends
+
+      new WOW().init();
 
 
-
+      </script>
 </body>
 </html>
