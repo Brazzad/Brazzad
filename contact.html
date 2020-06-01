@@ -1,232 +1,228 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="harrnish">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BrighterFuture.com</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-      <title>Portfolio website</title>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
 
-      <!-- terminal effect -->
-      <script src="t.min.js"></script>
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="animate.css">
-      <script src="wow.min.js"></script>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-</head>
-<body>
-      <div class="wrapper">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-            <!--------------- navbar starts here --------------->
-            <nav>
-                  <span id="brand">
-                        <a href="index.html">ISAAC-izo</a>
-                  </span>
+	</head>
+	<body>
+		
+	<div class="color-loader"></div>
 
-                  <ul id="menu">
-                        <li><a href="index.html">home<span>.</span></a></li>
-                        <li><a href="work.html">work<span>.</span></a></li>
-                        <li><a href="about.html">about me<span>.</span></a></li>
-                        <li><a href="contact.html">contact<span>.</span></a></li>
-                  </ul>
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-2">
+							<div id="color-logo"><a href="index.html">BRIGHTER FUTURE</a></div>
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li class="has-dropdown">
+									<a href="sections.html">sections</a>
+									<ul class="dropdown">
+										<li><a href="blog.html">blog</a></li>
+										<li><a href="about.html">About us</a></li>
+										<li><a href="services.html">services</a></li>
+										<li><a href="contact.html">contact</a></li>
+									</ul>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url(images/mmmm.jpg);">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h1>“Opportunities don’t happen, you create them.”</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
 
-                  <div id="toggle">
-                        <div class="span">menu</div>
-                  </div>
+		<div id="colorlib-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<h3>Get In Touch</h3>
+						<form action="#">
+							<div class="row form-group">
+								<div class="col-md-6 padding-bottom">
+									<label for="fname">First Name</label>
+									<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								</div>
+								<div class="col-md-6">
+									<label for="lname">Last Name</label>
+									<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								</div>
+							</div>
 
-            </nav>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="email">Email</label>
+									<input type="text" id="email" class="form-control" placeholder="Your email address">
+								</div>
+							</div>
 
-            <div id="resize">
-                  <div class="close-btn">close</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject">Subject</label>
+									<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								</div>
+							</div>
 
-                  <ul id="menu">
-                        <li><a href="index.html">home<span>.</span></a></li>
-                        <li><a href="work.html">work<span>.</span></a></li>
-                        <li><a href="about.html">about me<span>.</span></a></li>
-                        <li><a href="contact.html">contact<span>.</span></a></li>
-                  </ul>
-            </div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								</div>
+							</div>
+							<div class="form-group text-center">
+								<input type="submit" value="Send Message" class="btn btn-primary">
+							</div>
 
-            <!--------------- navbar ends here --------------->
+						</form>		
+					</div>
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<h3>Contact Information</h3>
+						<div class="row contact-info-wrap">
+							<div class="col-md-3">
+								<p><span><i class="icon-location"></i></span> MotherLand Streets</p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-phone3"></i></span> <a href="tel://+254748813340">+254 748 813 340</a></p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-paperplane"></i></span> <a href="Brazzard:buyaisaac3.com">buyaisaac3.com</a></p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-globe"></i></span> <a href="#">buyaisaac8@gmail.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-            <div class="whitespace"></div>
+		
+	
+		<div id="colorlib-subscribe" style="background-image: url(images/god.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<h2>Sign Up for a Newsletter</h2>
+						<p>Sign up for our mailing list to get latest updates and offers.</p>
+						<form class="form-inline qbstp-header-subscribe">
+							<div class="row">
+								<div class="col-md-12 col-md-offset-0">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="Enter your email">
+										<button type="submit" class="btn btn-primary">Subscribe</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 
-            <!--------------- hero section starts here say hello 👋 --------------->
-            <div class="container">
-                  <div class="hero-content">
-                        <br><br>
+		
+	</div>
 
-                        <div class="row">
-                              <div class="col-lg-8">
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 
-                                    <h3 class="wow fadeInUp" data-wow-delay="1s">say hello 👋</h3><br>
-                                    <p class="wow fadeInUp" data-wow-delay="1.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, accusantium sint quod voluptatem dolorum, quaerat, ut iusto cumque magni ab repudiandae, quasi minus unde temporibus nulla eum eaque! Placeat praesentium sunt suscipit laboriosam deserunt commodi atque corporis, iure maiores dicta, fugit similique.</p>
-
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!--------------- hero section ends here --------------->
-
-            <!-- <div class="whitespace"></div> -->
-
-            <!--------------- form section starts here --------------->
-            <div class="container-fluid">
-                  <div class="row">
-                        <div class="col-lg-8">
-                              <form name="contact-form" id="contact-form" method="post" action="">
-
-                              <ul>
-
-                              <li class="wow fadeInUp" data-wow-delay="1.4s">
-                                    <label for="contact-name">Name :</label>
-                                    <div class="textarea">
-                                          <input type="text" name="contact-name" id="contact-name" value="" required>
-                                    </div>
-                              </li>
-
-                              <li class="wow fadeInUp" data-wow-delay="1.6s">
-                                    <label for="contact-email">Email :</label>
-                                    <div class="textarea">
-                                          <input type="email" name="contact-email" id="contact-email" value="" required>
-                                    </div>
-                              </li>
-
-                              <li class="wow fadeInUp" data-wow-delay="1.6s">
-                                    <label for="contact-project">Message :</label>
-                                    <div class="textarea">
-                                          <textarea type="email" name="contact-project" id="contact-project" rows="6" value="" required>
-                                          </textarea>
-                                    </div>
-                              </li>
-
-                              </ul>
-
-                              <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp">Send Message</button>
-
-                              </form>
-                        </div>
-                  </div>
-            </div>
-
-            <!--------------- form section ends here --------------->
-
-            <div class="whitespace"></div>
-
-            <!--------------- footer starts here --------------->
-            <div class="footer">
-                  <div class="container">
-                        <br><br>
-
-                        <div class="collab">
-                              <div class="row">
-                                    <div class="col-lg-12">
-                                          <p class="wow fadeInUp">Got an interesting project? I can help you.</p>
-                                    </div>
-                              </div>
-                        </div>
-
-                        <br>
-
-                        <div class="hr">
-                              <div class="row"></div>
-                        </div>
-
-                        <br><br>
-
-                        <div class="info">
-                              <div class="row">
-                                    <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp">connect with me</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">tw. izo @buyaisaac</h4>
-                                          <br><br>
-                                    </div>
-
-                                    <div class="col-lg-4" id="media">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
-
-                                          <ul>
-                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">fb</li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">ig</li>
-                                                <li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">tw</li>
-                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s">yt</li>
-                                          </ul>
-
-                                          <br><br>
-                                    </div>
-
-                                    <div class="col-lg-4" id="address">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">buyaisaac3@gmail.com</h4>
-                                          <br><br>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!--------------- footer ends here --------------->
-
-            <br><br><br><br>
-
-      </div>
-
-      <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
-
-      // navigation starts here
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      // navigation ends here
-
-      // nav animation
-
-      TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
-
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
-
-      // nav animation ends
-
-
-      new WOW().init();
-
-
-      </script>
-</body>
+	</body>
 </html>
+
+
